@@ -1,0 +1,54 @@
+<% include ../partials/header%>
+<h1>Input Employee</h1>
+<%=status%>
+<div class="container">
+	<form>
+		<div class="form-group">
+			<label for="exampleInputEmail1">Photo</label>
+			<input type="file" class="form-control" id="exampleInputEmail1">
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword1">Nama</label>
+			<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nama">
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword2">Alamat</label>
+			<input type="text" class="form-control" id="exampleInputPassword2" placeholder="Alamat">
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword6">Gender : </label>
+			<input name="gender" id="gender-0" value="male" checked="checked" type="radio"> Male
+			<input name="gender" id="gender-0" value="female" type="radio"> Female
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword3">No KTP</label>
+			<input type="text" class="form-control" id="exampleInputPassword3" placeholder="No KTP">
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword4">Tanggal Mulai Bekerja</label>
+			<input type="date" class="form-control" id="exampleInputPassword4" >
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword5">Tanggal Berhenti Bekerja</label>
+			<input type="date" class="form-control" id="exampleInputPassword5">
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword7">Agama</label>
+			<input type="text" class="form-control" id="exampleInputPassword7" placeholder="Agama">
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword8">No Telepon Rumah</label>
+			<input type="text" class="form-control" id="exampleInputPassword8" placeholder="No Telepon Rumah">
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword9">Email Pribadi</label>
+			<input type="email" class="form-control" id="exampleInputPassword9" placeholder="Email">
+		</div>
+		<div class="form-group">
+			<label for="exampleInputPassword10">Email UPH</label>
+			<input type="email" class="form-control" id="exampleInputPassword10" placeholder="UPH Email">
+		</div>
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>
+</div>
+<% include ../partials/footer%>
