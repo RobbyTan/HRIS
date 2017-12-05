@@ -19,7 +19,8 @@ app.get("/employee",function(req,res){
 	res.render("./employee/statusEmployee");
 })
 app.post("/employee",function(req,res){
-	res.send(req.body.status);
+	var status=req.body.status;
+	res.render("./employee/inputEmployee",{status:status});
 })
 app.listen(3000,function(){
 	console.log("Server has started")
