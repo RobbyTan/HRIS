@@ -1,0 +1,22 @@
+<% include ../partials/header%>
+<div class="container">
+<h1>Employee Status</h1>
+<form method="post" action="/employee">
+	<div class="form-group">
+    <label for="exampleFormControlSelect1">Employee Status : </label>
+    <select class="form-control" id="exampleFormControlSelect1" name="status">
+      <option value="DosenTetap">Dosen Tetap</option>
+      <option value="DosenTidakTetap">Dosen Tidak Tetap</option>
+      <option value="KaryawanTetapAkademik">Karyawan Tetap Akademik</option>
+      <option value="KaryawanTetapNonAkademik">Karyawan Tetap Non Akademik</option>
+      <option value="NonStaff">Non Staff</option>
+      <option value="InstrukturUKM">Instruktur UKM Club</option>
+      <option value="Intern">Intern</option>
+      <option value="Scholarship">Scholarship</option>
+    </select>
+  </div>
+  <input type="submit" class="btn btn-primary">
+  <!-- <button type="button" class="btn btn-primary">Next</button> -->
+</form>
+</div>
+<% include ../partials/footer%>
