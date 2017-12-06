@@ -25,3 +25,4 @@ app.post("/employee",function(req,res){
 app.listen(3000,function(){
 	console.log("Server has started")
 })
+
