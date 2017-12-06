@@ -1,12 +1,18 @@
 <% include ../partials/header%>
-<h1>Input Employee</h1>
+
 <%=status%>
 <div class="container">
+	<h1>Input Employee</h1>
 	<form>
-		<div class="form-group">
-			<label for="exampleInputEmail1">Photo</label>
-			<input type="file" class="form-control" id="exampleInputEmail1">
-		</div>
+		<div class="file-field input-field">
+      <div class="btn" onclick="">
+        <span><i class="material-icons text-white">add_a_photo</i> Photo</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
 		<div class="form-group">
 			<label for="exampleInputPassword1">Nama</label>
 			<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nama">
